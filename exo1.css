@@ -1,0 +1,149 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+button {
+    width: 100px;
+    padding: 8px;
+    background: goldenrod;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: greenyellow;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.Errore {
+    color: crimson;
+    font-size: 14px;
+}
+
+.divcalcule {
+    display: flex;
+    justify-content: center;
+}
+
+.calculatrice {
+    width: 270px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: rgb(156, 164, 164);
+}
+
+#afichageResultat {
+    height: 60px;
+    width: 100%;
+    border-radius: 9px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.divbutton {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.divRowbutoon,
+.divRowbutoonEqul {
+    display: flex;
+    gap: 5px;
+}
+
+#buttoncalc_equal {
+    width: 180px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.div1,
+.div2,
+.div22 {
+    height: 200px;
+    width: 100px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.div1 {
+    background-color: blue;
+}
+
+.div2 {
+    background-color: chocolate;
+}
+
+.div22 {
+    background-color: rgb(6, 233, 36);
+}
+
+
+.element {
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #2167c2;
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+
+
+.barrProgression {
+    width: 400px;
+    height: 29px;
+    border: 1px solid;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#barPAnimation {
+    width: 0;
+    height: 100%;
+    background-color: rgb(0, 255, 34);
+    transition: width 0.3s ease;
+}
+
+#starProgression {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: aqua;
+}
+
+#starProgression:active {
+    transform: scale(1.07);
+    background-color: rgb(0, 255, 162);
+}

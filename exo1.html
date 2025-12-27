@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp1</title>
+     <link rel="stylesheet" href="exo1.css">
+</head>
+
+<body>
+    <h1>ex_1</h1>
+    <div id="change_Style" style="height: 100px; width: 100 px; border:solid;background-color: #531af0;">
+
+        <h4>clis sur la button to change la coleurr</h4>
+    </div>
+    <button id="chngerColor"> clicToChange</button>
+
+ <h1>Ex_2</h1>
+
+    <div>
+
+        <h4 id="text">click sur les button suivant pour afficher ce text ou non</h4>
+        <button id="buttonAficher">afficher</button> <button id="buttonMasquer">masquer</button>
+
+    </div>
+            <h1>Ex_3:Formulaire de validation</h1>
+   <div class="container1">
+      <label for="username"> put your nmae:</label>
+      <input  type="text" name="username" id="username">
+      <div id="nameError" class="Errore"></div> <br>
+      <label for="password"> pute your Email:</label>
+      <input  type="email" name="email" id="emaile">
+      <div id="emailError" class="Errore"></div>
+      <button id="soumettre">Soumettre</button>
+   </div>
+    <h1>Ex_4:calcul</h1>
+    <div class="divcalcule">
+
+        <div class="calculatrice">
+            <div>
+                <input type="text" id="afichageResultat" value="0">
+
+            </div>
+
+            <div class="divbutton">
+
+                <div class="divRowbutoon">
+
+                    <input type="button" value="C" id="btn_clear" style="background-color: rgb(243, 23, 11);">
+                    <input type="button" value="(" id="btnopen">
+
+                    <input type="button" value=")" id="btnClos">
+                    <input type="button" value="/" id="btndiv" style="background-color: aquamarine;">
+
+
+                </div>
+                <div class="divRowbutoon">
+                    <input type="button" value="7" id="buttoncalc">
+                    <input type="button" value="8" id="buttoncalc">
+
+                    <input type="button" value="9" id="buttoncalc">
+                    <input type="button" value="*" id="buttoncalc" style="background-color: aquamarine;">
+
+                </div>
+                <div class="divRowbutoon">
+                    <input type="button" value="4" id="buttoncalc_4">
+                    <input type="button" value="5" id="buttoncalc_5">
+
+                    <input type="button" value="6" id="buttoncalc_6">
+                    <input type="button" value="+" id="buttoncalc_plus" style="background-color: aquamarine;">
+
+                </div>
+
+                <div class="divRowbutoon">
+                    <input type="button" value="1" id="buttoncalc_1">
+                    <input type="button" value="2" id="buttoncalc_2">
+
+                    <input type="button" value="3" id="buttoncalc_3">
+                    <input type="button" value="-" id="buttoncalc_moin" style="background-color: aquamarine;">
+
+                </div>
+
+                <div class="divRowbutoonEqul">
+                    <input type="button" value="0" id="buttoncalc_0">
+                    <input type="button" value="=" id="buttoncalc_equal" style="background-color: aquamarine;">
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+    </div>
+<h3>EX:5</h3>
+     <div class="container">
+
+        <div class="containerDimage">
+<img id="images" src="img1.png" alt="image">
+        </div>
+        <button id="suivant" style="width:80px ;height: 50px">suivant</button>
+        <button id="precedent" style="width:80px ;height: 50px">precedent</button>
+    </div>
+    <h3>Exo:7</h3>
+    <div class="container">
+
+        <div class="containerTimer">
+            <h4>Temps ecoule:<span id="timer"></span> secondes</h4>
+        </div>
+    </div>
+
+
+<Br>
+    <Hr>
+<h3>Exo:8</h3>
+    <div class="container">
+
+  
+    <div class="div2" id="div2">
+  <p>plassez la souris ici</p>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<h1>EXO:9</h1>
+    <div class="container">
+      
+        <div class="containerTodo">
+          <div>
+              <input type="text" id="textInput" placeholder="Ajouter une tache " autocomplete="off">
+              <button id="Ajouter">Ajouer</button>
+          </div>
+          <div class="TachAjouter">
+            <ul id="ListTach">
+              
+            </ul>
+          </div>
+        </div>
+    </div>
+
+     <h1>EXo:10</h1>
+    <div class="container">
+        <button onclick="Ouvrire()" style="width:80px ;height: 50px">Ouvrire</button>
+        <button onclick="Fermer()" style="width:80px ;height: 50px">Fermer</button></div>
+        <div class="modal" id="modal">
+            <h4>Modal de notification</h4>
+            <p> pour ouvrir cliquant sur un bouton "Ouvrir" et pour la fermer en cliquant sur un bouton
+           "Fermer" dans la modale.
+            </p>
+           
+        </div>
+    </div>
+
+    <h1>Exo:11 </h1>
+    <div class="container">
+        <div class="barRecherche">
+            <input type="text" name="chame_de_recherche" id="recherche" placeholder="Recherrche un produit...">
+        </div>
+        <div class="produit">
+            <ul>
+                <li>
+                    <div>Ordinateur Portable</div>
+                </li>
+                <li>
+                    <div>Smartphone</div>
+                </li>
+                <li>
+                    <div>casque Audio</div>
+                </li>
+                <li>
+                    <div>Ecran LED</div>
+                </li>
+                <li>
+                    <div>Clavier Mecanique</div>
+                </li>
+                <li>
+                    <div>Souris sans Fil</div>
+                </li>
+                <li>
+                    <div>Smart Tv</div>
+                </li>
+                <li>
+                    <div>Tablet</div>
+                </li>
+                <li>
+                    <div>Phone Android</div>
+                </li>
+                <li>
+                    <div>Phone Appel</div>
+                </li>
+              
+            </ul>
+
+        </div>
+    </div>
+
+<h1>Exo:12</h1>
+    <div class="container" id="container">
+    
+    </div>
+    <h1>Exo:13</h1>
+    
+<div class="container">
+
+ <div class="barrProgression">
+    <div id="barPAnimation"></div>
+ </div>
+ <button id ="starProgression">Demarrer la progression</button>
+
+</div>
+
+<h1>Exo:14</h1>
+    <div class="container">
+
+        <div class="div1" id="div1">
+            <div class="element" id="element1" draggable="true">element1</div>
+            <div class="element" id="element2" draggable="true">element2</div>
+            <div class="element" id="element3" draggable="true">element3</div>
+        </div>
+        <div class="div22" id="div22">
+
+
+        </div>
+    </div>
+ <h1>Exo:15</h1>
+    <div class="container">
+       
+        <button id="mod_style"><p id="mod_txt">somber mod</p></button>
+    </div>
+    
+
+    <script src="exo1.js"></script>
+</body>
+
+</html>
